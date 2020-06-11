@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>Backorder API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+<!--
+
+   <link rel ="stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/fontawesome.min.js"
+                 integrity="sha256-bP9MBDJ4xkv81w/A2cgwRonMI+eelvZwm7e8rP5JIxA=" crossorigin="anonymous" />
+
+    <style>
+    *{ margin:0; padding:0; }
+
+    div{
+    height : 100vh;
+    display : flex;
+    justify-content :center;
+    align-items : center;}
+
+    a{
+    height : 100px;
+    width : 100px;
+    background-color : #f5f6fa;
+    border-radius: 50px;
+    text-align : center;
+    margin: 10px;
+    line-height : 110px ;
+    box-shadow : 1px 4px 2px 2px #dcdde1 ;}
+
+</style>
+-->
+</head>
+
+<body>
+
+
+<article>
+  <section>
+    <h1>Backorder</h1>
+    <p>A backorder is an order for a good or service that cannot be filled at the current time due to a lack of available supply. The item may not be held in the company's available inventory but could still be in production, or the company may need to still manufacture more of the product.</p>
+   </section>
+ </article>
+
+
+ <div class="login">
+
+    <a href = "https://www.linkedin.com/in/adityayadav1729/" target = "_blank">
+        <i class = "fa fa-linkedin"></i>
+    </a>
+
+
+
+
+	<h1>Back Order Prediction</h1>
+     <a href ="/sample-file"  target = "blank" ><button class = 'btn btn-primary btn-block btn-large'>
+         Download Sample Input File</button></a>
+
+     <!-- Main Input For Receiving Query to our ML -->
+     <!--
+    <form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" name="national_inv" placeholder="Current Inventory Level" required="required" />
+        <input type="text" name="lead_time" placeholder="Transit time for product" required="required" />
+		<input type="text" name="in_transit_qty" placeholder="Amount of product in transit from source" required="required" />
+        <input type="text" name="forecast_9_month" placeholder="Forecast sales for the next 9 months" required="required" />
+        <input type="text" name="sales_9_month" placeholder="Sales quantity for the prior 9 month time period" required="required" />
+		<input type="text" name="min_bank" placeholder="Minimum recommend amount to stock" required="required" />
+        <input type="text" name="pieces_past_due" placeholder="Parts overdue from source" required="required" />
+        <input type="text" name="perf_6_month_avg" placeholder="Source performance for prior 6 month period" required="required" />
+		<input type="text" name="local_bo_qty" placeholder="Amount of stock orders overdue" required="required" />
+        <input type="text" name="deck_risk" placeholder="Part Risk 0/1" required="required" />
+        <input type="text" name="ppap_risk" placeholder="Part Risk 0/1" required="required" />
+		<input type="text" name="stop_auto_buy" placeholder="Part Risk 0/1" required="required" />
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+    -->
+       <form action = "http://ec2-18-191-182-208.us-east-2.compute.amazonaws.com:5000/predict" method = "POST"
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file" />
+
+          <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+      </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+
+</body>
+</html>

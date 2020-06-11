@@ -1,34 +1,10 @@
-
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@Adi1729
-Adi1729 /
-Google_Dialogflow
-Private
-
-1
-0
-
-    0
-
-Code
-Issues 0
-Pull requests 0
-Actions
-Projects 0
-Security 0
-Insights
-
-    Settings
-
-Google_Dialogflow/.gitignore
-@Adi1729 Adi1729 changes req file 68b08b3 on Apr 23
-146 lines (118 sloc) 2.04 KB
 # Byte-compiled / optimized / DLL files
 __pycache__/
+/input
+/logs
+/model
+/prediction
+/transformation
 *.py[cod]
 *$py.class
 

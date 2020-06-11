@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad65d267-a118-4b6e-ada8-35bfe082ca5b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="onto" value="dad09d633c47fc46d371ed426cc97627be32f6b0" />
+  </component>
+  <component name="ProjectId" id="1cjAVYFCRo9AxyP4Mux5QuVaNh4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/model" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sample" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/model" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <option name="sshConnectionType" value="PASSWORD" />
+    <option name="sshUserName" value="35.239.155.253" />
+    <option name="sshPort" value="27017" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad65d267-a118-4b6e-ada8-35bfe082ca5b" name="Default Changelist" comment="" />
+      <created>1591031652239</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591031652239</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Backorder prediction">
+      <created>1591907442343</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591907442343</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Backorder prediction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Backorder prediction" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="626" y="221" key="#Inspections" timestamp="1591740823534">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="626" y="221" key="#Inspections/65.24.1855.1056@65.24.1855.1056" timestamp="1591740823534" />
+    <state x="639" y="309" key="#Log_Highlighting_(ideolog)" timestamp="1591797675955">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="639" y="309" key="#Log_Highlighting_(ideolog)/65.24.1855.1056@65.24.1855.1056" timestamp="1591797675955" />
+    <state x="730" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591791857854">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="730" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1591791857854" />
+    <state x="427" y="84" key="CommitChangelistDialog2" timestamp="1591907442199">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="427" y="84" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1591907442199" />
+    <state x="780" y="283" key="FileChooserDialogImpl" timestamp="1591887026984">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="780" y="283" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1591887026984" />
+    <state x="492" y="225" key="Git.Interactive.Rebase.Dialog" timestamp="1591908222224">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="492" y="225" key="Git.Interactive.Rebase.Dialog/65.24.1855.1056@65.24.1855.1056" timestamp="1591908222224" />
+    <state x="592" y="275" key="Vcs.Push.Dialog.v2" timestamp="1591907524083">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="592" y="275" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1591907524083" />
+    <state x="769" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591907455295">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="769" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/65.24.1855.1056@65.24.1855.1056" timestamp="1591907455295" />
+    <state x="556" y="401" key="git4idea.rebase.GitRebaseDialog" timestamp="1591908218879">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="556" y="401" key="git4idea.rebase.GitRebaseDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1591908218879" />
+    <state x="655" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1591907900838">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="655" y="236" width="672" height="678" key="search.everywhere.popup/65.24.1855.1056@65.24.1855.1056" timestamp="1591907900838" />
+  </component>
+</project>
