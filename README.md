@@ -26,7 +26,7 @@ By default, flask will run on port 5000.
 3. Navigate to URL http://localhost:5000
 
 You should be able to view the homepage as below :
-<img src="https://github.com/Adi1729/Machine-Learning-Materials/blob/master/backorder_api.png">
+<img src="https://github.com/Adi1729/ML-Deployed-in-AWS/blob/master/backorder_api.png">
 
 4. You can also send direct POST requests to FLask API using Python's inbuilt request module
 Run the beow command to send the request with some pre-popuated values -
